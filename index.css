@@ -3,10 +3,11 @@ font-family: 'Shadows Into Light', cursive;*/
 #nav {
     text-align: center;
     font-size: larger;
-    background-image: url('./Assets/backgroundimage.jpeg');
+    background-image: url('./Assets/landing\ for\ menu.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.3;
+    background-color: #F15A29;
  } 
  .arrangement {
      display: flex;
@@ -26,5 +27,15 @@ font-family: 'Shadows Into Light', cursive;*/
  .pics {
      display: flex;
      justify-content: space-between;
+     list-style-type: none;
+ }
+ li ul nav {
+     margin: 0 auto;
+     padding: 0.1% 0;
+     margin-right: 0;
+ }
+ .last {
+     background-image: url("./Assets/backgroundsubscribe.jpg");
+     text-align: center;
      list-style-type: none;
  }
