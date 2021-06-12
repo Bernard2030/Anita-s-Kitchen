@@ -1,0 +1,30 @@
+/*font-family: 'Architects Daughter', cursive;
+font-family: 'Shadows Into Light', cursive;*/
+#nav {
+    text-align: center;
+    font-size: larger;
+    background-image: url('./Assets/backgroundimage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+ } 
+ .arrangement {
+     display: flex;
+     justify-content: space-between;
+     margin: 20;
+     list-style-type: none;
+ }
+ .second {
+     display: flex;
+     list-style-type: none;
+ }
+ .fastfood {
+     display: inline-block;
+     justify-content: space-between;
+     list-style-type: none;
+ }
+ .pics {
+     display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+ }
