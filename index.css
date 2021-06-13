@@ -34,4 +34,49 @@ font-family: 'Shadows Into Light', cursive;*/
      padding: 0.1% 0;
      margin-right: 0;
  }
+ .fastfood {
+     b
+ }
+ .back {
+    background-image: url("./Assets/foodsBg.jpg")
+    width: 80%
+    margin: 0 auto;
+    padding: 5em 6em;
+}
+.container {
+    background-color: #fff;
+}
+.end-list {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #999;
+}
+.end-list-1 {
+    background: #fff;
+    padding-top: 1em;
+    padding-left: 7em;
+    padding-right: 7em;
+    color: #F25C2A;
+    font-weight: bold;
+}
+.end-list-2 {
+    border-right: .8px solid #111;
+    padding-right: 6em;
+}
+.Fastfoodsimages {
+   text-align: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 1.5em;
+   margin-left: 4em;
+   margin-right: 4em;
+}
+#burgerchicken p{
+    color: #F25C2A;
+    font-weight: bold;
+}
+
+
+
  
