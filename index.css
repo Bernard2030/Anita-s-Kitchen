@@ -24,19 +24,6 @@ font-family: 'Shadows Into Light', cursive;*/
      justify-content: space-between;
      list-style-type: none;
  }
- .pics {
-     display: flex;
-     justify-content: space-between;
-     list-style-type: none;
- }
- li ul nav {
-     margin: 0 auto;
-     padding: 0.1% 0;
-     margin-right: 0;
- }
- .fastfood {
-     b
- }
  .back {
     background-image: url("./Assets/foodsBg.jpg")
     width: 80%
@@ -46,13 +33,13 @@ font-family: 'Shadows Into Light', cursive;*/
 .container {
     background-color: #fff;
 }
-.end-list {
+.list {
     text-align: center;
     display: flex;
     justify-content: space-between;
     background-color: #999;
 }
-.end-list-1 {
+#list-1 {
     background: #fff;
     padding-top: 1em;
     padding-left: 7em;
@@ -60,7 +47,7 @@ font-family: 'Shadows Into Light', cursive;*/
     color: #F25C2A;
     font-weight: bold;
 }
-.end-list-2 {
+#list-2 {
     border-right: .8px solid #111;
     padding-right: 6em;
 }
@@ -75,6 +62,20 @@ font-family: 'Shadows Into Light', cursive;*/
 #burgerchicken p{
     color: #F25C2A;
     font-weight: bold;
+    
+}
+#pizza {
+    color: #F25C2A;
+    font-weight: bold;
+}
+#beef {
+    color: #F25C2A;
+    font-weight: bold;
+}
+.last {
+    background-image: url("./Assets/backgroundsubscribe.jpg");
+    text-align: center;
+    list-style-type: none;
 }
 
 
