@@ -29,13 +29,15 @@ font-family: 'Shadows Into Light', cursive;*/
      list-style-type: none;
  }
  .back {
-    background-image: url("./Assets/foodsBg.jpg")
     width: 80%
     margin: 0 auto;
     padding: 5em 6em;
 }
 .container {
     background-color: #fff;
+    background-image: url("./Assets/foodsBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .list {
     text-align: center;
@@ -83,6 +85,7 @@ font-family: 'Shadows Into Light', cursive;*/
     background-image: url("./Assets/backgroundsubscribe.jpg");
     text-align: center;
     list-style-type: none;
+    display: flex;
 }
 #last {
     background-color: #F15A29;
