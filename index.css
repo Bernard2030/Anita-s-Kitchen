@@ -62,6 +62,7 @@ font-family: 'Shadows Into Light', cursive;*/
 #burgerchicken p{
     color: #F25C2A;
     font-weight: bold;
+    display: flex;
     
 }
 #pizza {
