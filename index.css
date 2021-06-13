@@ -18,6 +18,7 @@ font-family: 'Shadows Into Light', cursive;*/
  .second {
      display: flex;
      list-style-type: none;
+     margin-top: 160pxgit;
  }
  #foods {
      box-shadow: #111;
