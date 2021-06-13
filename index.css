@@ -19,6 +19,9 @@ font-family: 'Shadows Into Light', cursive;*/
      display: flex;
      list-style-type: none;
  }
+ #foods {
+     box-shadow: #111;
+ }
  .fastfood {
      display: inline-block;
      justify-content: space-between;
@@ -58,6 +61,7 @@ font-family: 'Shadows Into Light', cursive;*/
    margin-top: 1.5em;
    margin-left: 4em;
    margin-right: 4em;
+   display: flex;
 }
 #burgerchicken p{
     color: #F25C2A;
@@ -72,11 +76,15 @@ font-family: 'Shadows Into Light', cursive;*/
 #beef {
     color: #F25C2A;
     font-weight: bold;
+    
 }
 .last {
     background-image: url("./Assets/backgroundsubscribe.jpg");
     text-align: center;
     list-style-type: none;
+}
+#last {
+    background-color: #F15A29;
 }
 
 
