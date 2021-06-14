@@ -1,4 +1,4 @@
-.any{
+.begin{
     background:hsl(15, 88%, 55%);
     width:100vw;
     height:7vh;
@@ -359,4 +359,12 @@ td:hover{
     margin-top:2vw;
     background:white;
     border:1px solid #F15A29;
+}
+.initial {
+    display: flex;
+    color: white;
+    float: right;
+    margin-top: 450px;
+    /* padding-left: 50px; */
+    font-size: x-large;
 }
