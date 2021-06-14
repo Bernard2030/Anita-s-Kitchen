@@ -9,11 +9,15 @@ font-family: 'Shadows Into Light', cursive;*/
     opacity: 0.3;
     background-color: #F15A29;
  } 
- .arrangement {
+ /* .arrangement {
      display: flex;
      justify-content: space-between;
      margin: 20;
      list-style-type: none;
+     position: relative;
+     margin-right: 3vw;
+     float: left;
+     opacity: 0.9; */
  }
  .second {
      display: flex;
@@ -89,6 +93,24 @@ font-family: 'Shadows Into Light', cursive;*/
 }
 #last {
     background-color: #F15A29;
+    margin-right: 20px;
+}
+.images {
+    width: fit-content;
+    position: relative;
+    top: -10vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1vw;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px 2px grey;
+    float: left;
+    margin-right: 3vw;
+    display: block;
+
+}
+.food{
+    display: block;
 }
 
 
