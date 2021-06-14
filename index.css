@@ -38,7 +38,7 @@ h1 , h2{
     color:white;
     text-align: center;
 }
-.logo{
+.landing{
     margin:auto;
     position: relative;
     top: 15vh;
@@ -89,8 +89,7 @@ h1 , h2{
 i{
     padding:70px;
 }
-/* .f-food-images{
-} */
+
 .f-food-images img{
     display: block;
 }
@@ -107,7 +106,7 @@ i{
     float:left;
     margin-right: 3vw;
 }
-.x{
+.services{
     width: 60vw;
     margin:auto;
 }
@@ -146,7 +145,7 @@ i{
     background:white;
     border:1px solid #F15A29;
 }
-.beef{
+.chakula{
     width:60vw;
     height:60vh;
     background-image: url('./Assets/foodsBg.jpg');
@@ -155,7 +154,7 @@ i{
     padding-top:3vh;
     padding-left:6vw;
 }
-.small-beef{
+.data{
     width:55vw;
     height:40vh;
     background-color: white;
@@ -275,7 +274,7 @@ td:hover{
     position:relative;
     top:-1vh;
 }
-.sub{
+.subscribe{
     width:60vw;
     height:25vh;
     background-image: url('./Assets/backgroundsubscribe.jpg');
