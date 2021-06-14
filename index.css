@@ -1,4 +1,4 @@
-.services{
+.any{
     background:hsl(15, 88%, 55%);
     width:100vw;
     height:7vh;
@@ -75,7 +75,7 @@ h1 , h2{
     margin-left:-3px;
 }
 .breakfast{
-    background-image:url('./Assets/foodsBg.jpg');
+    background-image:url('./Assets/breakfast.jpg');
 }
 .lunch{
     background-image: url('./Assets/lunch.jpg');
@@ -94,7 +94,7 @@ i{
 .f-food-images img{
     display: block;
 }
-#fastfood{
+.f-food{
     width:fit-content;
     position:relative;
     top:-10vh;
@@ -107,11 +107,11 @@ i{
     float:left;
     margin-right: 3vw;
 }
-.intro{
+.x{
     width: 60vw;
     margin:auto;
 }
-.person1{
+.p1{
     font-size: 1em;
     text-align:justify;
     text-justify: auto;
@@ -122,7 +122,7 @@ i{
     left: 10vw;
     top:-50vh;
 }
-.fastfood2{
+.f-food2{
     width: fit-content;
     height: fit-content;
     text-align: center;
@@ -136,10 +136,10 @@ i{
     box-shadow: 0px 2px 2px 2px grey;
     padding:1vw;
 }
-#fastfoods div{
+.f-food2 div{
     display:inline-flex;
 }
-.person1 button{
+.p1 button{
     color:#F15A29;
     height:3vh;
     margin-top:2vw;
@@ -149,13 +149,13 @@ i{
 .beef{
     width:60vw;
     height:60vh;
-    background-image: url('assets/backgrounds/foodsBg.jpg');
+    background-image: url('./Assets/foodsBg.jpg');
     position:relative;
     top:60vh;
     padding-top:3vh;
     padding-left:6vw;
 }
-.beef{
+.small-beef{
     width:55vw;
     height:40vh;
     background-color: white;
@@ -191,7 +191,7 @@ td:hover{
     top:-35vh;
     left:2vw;
 }
-.beef .span1{
+.small-beef .span1{
     color:#F15A29;
     font-size: 2em;
     position:relative;
@@ -235,7 +235,7 @@ td:hover{
     border:0.5px solid grey;
     box-shadow: 0px 0px 1px 1px silver;
 }
-.customers-message1{
+.customers-msg1{
     width:20vw;
     text-align:justify;
     letter-spacing: 0.1em;
@@ -244,7 +244,7 @@ td:hover{
     top:7vh;
     padding-left:3vw;
 }
-.customers-message2{
+.customers-msg2{
     text-align:justify;
     letter-spacing: 0.1em;
     text-justify: auto;
@@ -256,7 +256,7 @@ td:hover{
     border-left:1px solid black;
     padding-left:3vw;
 }
-.customers-images{
+.customers-img{
     position:relative;
     top:9vh;
     left:5vw;
@@ -275,7 +275,7 @@ td:hover{
     position:relative;
     top:-1vh;
 }
-#subscribe{
+.sub{
     width:60vw;
     height:25vh;
     background-image: url('./Assets/backgroundsubscribe.jpg');
@@ -303,7 +303,7 @@ td:hover{
     border:0px solid black;
     border-radius:3px;
 }
-.last{
+.footer{
     width:60vw;
     height:45vh;
     justify-content: center;
