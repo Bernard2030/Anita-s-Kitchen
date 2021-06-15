@@ -8,12 +8,14 @@
 }
 .head{
     margin: auto;
-    width: 60vw;
+    /* width: 60vw;
     height: 70vh;
-    margin-top:4vh;
+    margin-top:4vh; */
     background-image: url('./Assets/landing\ for\ menu.jpg');
     background-repeat: no-repeat;
-    margin-bottom:-20px;
+    background-size: cover;
+    /* margin-bottom:-20px; */
+
 }
 nav{
     display: flex;
@@ -27,6 +29,13 @@ nav ul li{
     list-style: none;
     display: inline;
     padding-right: 10px;
+}
+#p_home{
+    text-align: center;
+    padding-bottom: 30px;
+    
+    
+
 }
 ul nav{
     display:flex;
@@ -243,7 +252,7 @@ td:hover{
     top:7vh;
     padding-left:3vw;
 }
-.customers-msg2{
+.customers-message2{
     text-align:justify;
     letter-spacing: 0.1em;
     text-justify: auto;
@@ -361,12 +370,12 @@ td:hover{
     border:1px solid #F15A29;
 }
 .initial {
-    display: flex;
+    text-align: center;
     color: white;
-    float: right;
-    margin-top: 450px;
+    /* float: right;
+    margin-top: 450px; */
     /* padding-left: 50px; */
-    font-size: x-large;
+    font-size: 30px;
 }
 .image-left img{
     width:10%;
