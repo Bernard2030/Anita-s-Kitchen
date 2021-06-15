@@ -90,10 +90,10 @@ i{
     padding:70px;
 }
 
-.f-food-images img{
+.fast-food-images img{
     display: block;
 }
-.f-food{
+.fast-food{
     width:fit-content;
     position:relative;
     top:-10vh;
@@ -110,7 +110,7 @@ i{
     width: 60vw;
     margin:auto;
 }
-.p1{
+.part1{
     font-size: 1em;
     text-align:justify;
     text-justify: auto;
@@ -121,7 +121,7 @@ i{
     left: 10vw;
     top:-50vh;
 }
-.f-food2{
+.fast-food2{
     width: fit-content;
     height: fit-content;
     text-align: center;
@@ -135,10 +135,10 @@ i{
     box-shadow: 0px 2px 2px 2px grey;
     padding:1vw;
 }
-.f-food2 div{
+.fast-food2 div{
     display:inline-flex;
 }
-.p1 button{
+.part1 button{
     color:#F15A29;
     height:3vh;
     margin-top:2vw;
@@ -314,7 +314,7 @@ td:hover{
     position:relative;
     top:10vh;
 }
-.p2{
+.plan2{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size:2em;
@@ -322,7 +322,7 @@ td:hover{
     top:2vh;
     left:4.5vw;
 }
-.p3{
+.plan3{
     color:white;
     font-family:Arial;
     height:fit-content;
@@ -335,13 +335,13 @@ td:hover{
     left:4vw;
     margin-right:1vw;
 }
-.p4{
+.plan4{
     color:white;
     position: relative;
     top:10vh;
     left:4vw;
 }
-.p{
+.plan{
     width:20vw;
     height:30vh;
     font-size: 1em;
@@ -353,7 +353,7 @@ td:hover{
     left:19vw;
     top:0vh;
 }
-.p button{
+.plan button{
     color:#F15A29;
     height:3vh;
     margin-top:2vw;
@@ -367,4 +367,13 @@ td:hover{
     margin-top: 450px;
     /* padding-left: 50px; */
     font-size: x-large;
+}
+.image-left img{
+    width:10%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
 }
